@@ -262,7 +262,7 @@ Put the screenshot image in the following path, which assumes we're in the root 
 
 Use a relative filepath in the Markdown image to do so.
 
-ADD_YOUR_IMG_HERE
+![Markdown Tutorial](./../assets/images/madison-markdown-tut.png)
 
 ## E2. Link to 0.3 Using the Command Line
 
@@ -270,8 +270,8 @@ Write a markdown link, e.g., [Rendered linked text](./path/to/file.md), with a r
 
 Write one that assumes the file is `.md`, and another that assumes it is an `.html` file.
 
-- enter_md_link_here
-- enter_html_link_here
+- [Markdown ch. 0.3](03-cmd-line.md)
+- [HTML ch. 0.3](03-cmd-line.md)
 
 ## E3. Link to a resource in same project
 
@@ -279,7 +279,7 @@ Write a markdown link, e.g., [Rendered linked text](./path/to/file.md), with a *
 
 <p class="tip">You will need to use the double-dot <code>..</code> notation to travel back up the hierarchy in the project, since the image is not in the same folder/directory as this chapter's file.</p>
 
-- Link to the Github Anatomy image.
+- [Github Anatomy image](./../assets/images/0-gs/gh-anatomy.png)
 
 ## E4. Render an image
 
@@ -287,7 +287,7 @@ Write a markdown image, e.g., `![Alt text description](./path/in/here.jpg)`, whi
 
 <p class="tip">You will need to use the double-dot <code>..</code> notation.</p>
 
-ENTER_IMG_HERE
+![Hotel bookings](./../assets/images/hotel-bookings.webp)
 
 ## Submission
 
