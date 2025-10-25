@@ -175,8 +175,11 @@ if () {
 ```
 
 ```js
-// Your code here
+if (person1Age < 30) {
+  console.log("Person is less than 30 years old.")
+}
 ```
+
 
 ## E2
 
@@ -185,7 +188,9 @@ Write an `if` statement that reports whether `person1Profession` is `"married"`.
 Use the following console log, when the condition is `true`: `console.log("Person is married.")`
 
 ```js
-// Your code here
+if (person1Profession == "married"){
+  console.log("Person is married.")
+}
 ```
 
 ## E3
@@ -195,7 +200,9 @@ Write an `if` statement that reports whether `person1Age` is less than 30 years 
 Use the following console log, when the condition is `true`: `console.log("Person is less than 30 years old and married.")`
 
 ```js
-// Your code here
+if (person1Age < 30 && person1Profession == "married") {
+  console.log("Person is less than 30 years old and married.")
+}
 ```
 
 ## E4
