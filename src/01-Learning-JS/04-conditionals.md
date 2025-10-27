@@ -354,16 +354,16 @@ let person1 = {
   profession: "married"
 }
 
-// Your code here {
+if (person1['profession'] == "married") {
   console.log('Person is married.')
 }
-// Your code here {
+else if (person1['profession'] == "laborer") {
   console.log('Person is a laborer.')
 }
-// Your code here {
+else if (person1['profession'] == "widow") {
   console.log('Person is a widow.')
 }
-// Your code here {
+else {
   console.log('Person has unknown profession.')
 }
 ```
@@ -373,7 +373,18 @@ let person1 = {
   profession: "married"
 }
 
-// Your code here
+if (person1['profession'] == "married") {
+  console.log('Person is married.')
+}
+else if (person1['profession'] == "laborer") {
+  console.log('Person is a laborer.')
+}
+else if (person1['profession'] == "widow") {
+  console.log('Person is a widow.')
+}
+else {
+  console.log('Person has unknown profession.')
+}
 ```
 
 ### E8.1 Change to laborer
@@ -398,7 +409,22 @@ person1['profession'] = "laborer"
 ```
 
 ```js
-// Your code here
+let person1 = {
+  profession: "laborer"
+}
+
+if (person1['profession'] == "married") {
+  console.log('Person is married.')
+}
+else if (person1['profession'] == "laborer") {
+  console.log('Person is a laborer.')
+}
+else if (person1['profession'] == "widow") {
+  console.log('Person is a widow.')
+}
+else {
+  console.log('Person has unknown profession.')
+}
 ```
 
 ### E8.2 Change to student
@@ -423,7 +449,22 @@ person1['profession'] = "student"
 ```
 
 ```js
-// Your code here
+let person1 = {
+  profession: "student"
+}
+if (person1['profession'] == "married") {
+  console.log('Person is married.')
+}
+else if (person1['profession'] == "laborer") {
+  console.log('Person is a laborer.')
+}
+else if (person1['profession'] == "widow") {
+  console.log('Person is a widow.')
+}
+else {
+  console.log('Person has unknown profession.')
+}
+
 ```
 
 ## Submission
