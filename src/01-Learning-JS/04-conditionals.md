@@ -235,7 +235,12 @@ Use the following console logs:
 - For `else`: `console.log('Person is more than 30 years old.')`
 
 ```js
-// Your code here
+if (person2Age < 30){
+  console.log("Person is less than 30 years old.")
+}
+else {
+  console.log("Person is more than 30 years old.")
+}
 ```
 
 ## E5 - ELSE IF time!
@@ -269,7 +274,15 @@ Use the following console logs:
 - `else`: `console.log('Person is more than 30 years old.')`
 
 ```js
-// Your code here
+if (personAage < 30) {
+  console.log("Person is less than 30 years old.")
+}
+else if (personAage == 30) {
+  console.log("Person is exactly 30 years old.")
+}
+else {
+  console.log("Person is more than 30 years old.")
+}
 ```
 
 ## E6 - Conditional with numbers and an object!
@@ -297,7 +310,9 @@ Write an `if` statement that will report whether `childrenTotal['person1']` has 
 Use the following console log, when `if` is `true`: `console.log('Person has children.')`.
 
 ```js
-// Your code here
+if (childrenTotal['person1'] != 0) {
+  console.log("Person has children.")
+}
 ```
 
 ## E7
@@ -319,7 +334,13 @@ if (childrenTotal['person2']) {
 ```
 
 ```js
-// Your code here
+if (childrenTotal['person1'] != 0) {
+  console.log("Person has children.")
+}
+
+if (childrenTotal['person2'] != 0) {
+  console.log("Person has children.")
+}
 ```
 
 ## E8
