@@ -41,31 +41,52 @@ export default {
           path: "/01-Learning-JS/01-what-is-js"},
         {
           name: "1.2. Data Types",
-          path: "/01-Learning-JS/02-data-types"},
+          path: "/01-Learning-JS/02-data-types"
+        },
         {
           name: "1.3. Operators",
-          path: "/01-Learning-JS/03-operators"},
+          path: "/01-Learning-JS/03-operators"
+        },
         {
           name: "1.4. Conditionals",
-          path: "/01-Learning-JS/04-conditionals"},
+          path: "/01-Learning-JS/04-conditionals"
+        },
         {
           name: "1.5. Lists & Loops",
-          path: "/01-Learning-JS/05-lists-loops"},
+          path: "/01-Learning-JS/05-lists-loops"
+        },
         {
           name: "1.6. Strings",
-          path: "/01-Learning-JS/06-strings"},
+          path: "/01-Learning-JS/06-strings"
+        },
         {
           name: "1.7. Dates & Time",
-          path: "/01-Learning-JS/07-dates"},
+          path: "/01-Learning-JS/07-dates"
+        },
+        {
+          name: "1.7. Dates & Time - My Copy",
+          path: "/01-Learning-JS/07-dates--teachers_copy"
+        },
         {
           name: "1.8. Data Formats & Loading",
-          path: "/01-Learning-JS/08-load-data"},
+          path: "/01-Learning-JS/08-load-data"
+        },
+        {
+          name: "1.8. Data Formats & Loading - My Copy",
+          path: "/01-Learning-JS/08-load-data--teachers_copy"
+        },
         {
           name: "1.9. Objects & Maps",
-          path: "/01-Learning-JS/09-objs-maps"},
+          path: "/01-Learning-JS/09-objs-maps"
+        },
         {
           name: "1.10. Functions",
-          path: "/01-Learning-JS/10-functions"},
+          path: "/01-Learning-JS/10-functions"
+        },
+        {
+          name: "1.10. Functions - TC",
+          path: "/01-Learning-JS/10-functions--teachers_copy"
+        },
       ]
     },
     // 2. STATS for SJ
@@ -84,6 +105,10 @@ export default {
         {
           name: "2.3 Grouping & Calculating Frequency Distributions",
           path: "/02-Why-Stats/03-freq-dist-create"
+        },
+        {
+          name: "2.3-Grouping & FDs - My Copy",
+          path: "/02-Why-Stats/03-freq-dist-create--teachers_copy"
         },
         {
           name: "E-2.3 Group & Count 3-Levels",
@@ -105,6 +130,19 @@ export default {
     },
 
     //3. Textual Analysis
+          path: "/02-Why-Stats/04-freq-dist-plot--teachers_copy"
+        },
+        {
+          name: "2.5 Central Tendency",
+          path: "/02-Why-Stats/05-central-tend"
+        },
+        {
+          name: "2.6 Variability",
+          path: "/02-Why-Stats/06-dispersion"
+        },
+      ]
+    },
+    // 3. Textual Analysis
     {
       name: "3. Textual Analysis",
       open: false,
@@ -113,6 +151,17 @@ export default {
           name: "Weighting Words with TF-IDF",
           path: "/03-Textual-Analysis/01-weighting-words"
         }
+          name: "3.1 Weighting Words with TF-IDF",
+          path: "/03-Textual-Analysis/01-weighting-words"
+        },
+        {
+          name: "3.2 Processing Text",
+          path: "/03-Textual-Analysis/02-processing"
+        },
+        {
+          name: "3.3 Named Entity Recognition",
+          path: "/03-Textual-Analysis/03-ner"
+        },
       ]
     },
     // HELP PAGES
@@ -136,7 +185,7 @@ export default {
       open: false,
       pages: [
         {name: "Directions", path: "/MIDTERM/index"},
-        {name: "Lastname's Midterm", path: "/MIDTERM/midterm"},
+        {name: "Midterm", path: "/MIDTERM/midterm"},
       ]
     },
     // CLASS DEMOS
@@ -148,22 +197,8 @@ export default {
           name: "Eyes on the Prize!",
           path: "/Class-Demos/00-eotp"
         },
-        // {
-        //   name: "Compromise Demo",
-        //   path: "/Class-Demos/xx-compromise"
-        // },
       ]
     },
-    // {
-    //   name: "Textual Analysis",
-    //   open: false,
-    //   pages: [
-    //     {
-    //       name: "Compromise",
-    //       path: "/xx-Textual-Analysis/compromise"
-    //     },
-    //   ]
-    // },
   ],
 
   // Content to add to the head of the page, e.g. for a favicon:
