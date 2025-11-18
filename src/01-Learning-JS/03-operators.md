@@ -215,8 +215,28 @@ First, go back to the last chapter and grab the suite of primitives that you cre
 4. Print them all to the console with `console.log()`.
 5. Check your work, as you go, by opening the browser console with the **Inspect Element** tool.
 
-```javascript
+```js
 // Write your code in here
+
+let band = "All Time Low"
+
+const year = 2003
+
+let booleanHappy = true
+let booleanSad = false
+
+let null = "Boo!"
+
+let undefined
+console.log(undefined)
+
+let goodSongs = {
+  neverland: "Somewhere in Neverland",
+  maria: "Dear Maria, Count Me In",
+}
+
+let bandYear = band + " was founded in " + year + "."
+// All Time Low was founded in 2003.
 ```
 
 ## Submission
