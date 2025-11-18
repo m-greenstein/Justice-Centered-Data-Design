@@ -392,12 +392,13 @@ professions
 
 For this first exercise, I'll provide you with the basic structure:
 
-```javascript
+```js
 // Declare new and freshly empty array in which to push new items
 let lessProfessions = []
-for () {
-  if () {
+for (let profession_index in professions) {
+  if (profession_index !=1) {
     // Do something in here
+    lessProfessions.push(professions[profession_index])
   }
 }
 ```
@@ -406,7 +407,7 @@ for () {
   Interactive output of the array of <code>lessProfessions</code>
 </p>
 
-```javascript
+```js
 // Convert me to output `lessProfessions`
 lessProfessions
 ```
