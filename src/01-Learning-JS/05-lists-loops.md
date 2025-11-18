@@ -361,7 +361,7 @@ Let's use the following array lists for these exercises.
 
 ```javascript
 let professions = ["married", "laborer", "widow", "laborer", ]
-let childStatus = ["Child Alana 10 days", "Catherine 2 mos", "", "Charles Riley afed 10 days" ]
+let childStatus = ["Child Alana 10 days", "Catherine 2 mos", "", "Charles Riley aged 10 days" ]
 let sex = ["f", "m", "f", "m", "i"]
 ```
 
@@ -372,7 +372,7 @@ let sex = ["f", "m", "f", "m", "i"]
 
 ```js
 let professions = ["married", "laborer", "widow", "laborer", ]
-let childStatus = ["Child Alana 10 days", "Catherine 2 mos", "", "Charles Riley afed 10 days", "" ]
+let childStatus = ["Child Alana 10 days", "Catherine 2 mos", "", "Charles Riley aged 10 days", "" ]
 let sex = ["f", "m", "f", "m", "i"]
 ```
 
@@ -416,15 +416,16 @@ lessProfessions
 
 **Goal**: Add a new profession as a String, `"spinster"`, to your `professions` list, then log it to the web console.
 
-```javascript
+```js
 // Convert and code here
+professions.push("spinster")
 ```
 
 <p class="codeblock-caption">
   Interactive output of the array of <code>lessProfessions</code>
 </p>
 
-```javascript
+```js
 // Convert me to output `professions`
 professions
 ```
@@ -433,8 +434,11 @@ professions
 
 **Goal**: Make a `for` loop that considers each item in the `professions` array and logs "Person's profession is ___", which "___" should be the profession from the array.
 
-```javascript
+```js
 // Convert and code here
+for (let i = 0; i < professions.length; i++) {
+  console.log(`Person's profession is ${professions[i]}`)
+}
 ```
 
 ### E4. More conditional pushing with `for...of`
