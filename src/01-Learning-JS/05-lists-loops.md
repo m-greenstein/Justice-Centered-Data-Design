@@ -445,8 +445,21 @@ for (let i = 0; i < professions.length; i++) {
 
 **Goal**: Create a new array and populate, i.e., push all items from the `childStatus` array, except for any empty Strings. Use a `for...of` loop to do so.
 
-```javascript
+```js
 // Your code here
+let filteredChildren = [];
+
+for (let status of childStatus) {
+  if (status !== "") {  
+    filteredChildren.push(status);
+  }
+}
+
+
+```
+
+```js
+console.log(filteredChildren)
 ```
 
 ### E5. Conditional logging
