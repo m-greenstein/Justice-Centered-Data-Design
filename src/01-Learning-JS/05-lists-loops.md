@@ -466,8 +466,15 @@ console.log(filteredChildren)
 
 **Goal**: Make a `for` loop that considers each item in the `childStatus` list. Log `"Person has child"` ***if*** the person has a child ***and*** `"Person does not have child"` ***if not***. Use `.length` in your conditional statement to enact this logging.
 
-```javascript
+```js
 // Your code here
+for (let i = 0; i < childStatus.length; i++) {
+  if (childStatus[i].length > 0) {
+    console.log("Person has child");
+  } else {
+    console.log("Person does not have child");
+  }
+}
 ```
 
 Make sure you check to see if the correct language has been logged to the web console.
@@ -478,11 +485,12 @@ Make sure you check to see if the correct language has been logged to the web co
 
 For your reference, here's the original declaration and instantiation of `sex`: `let sex = ["f", "m", "f", "m", "i"]`.
 
-```javascript
+```js
 // Convert and code here
+sex.push("unknown")
 ```
 
-```javascript
+```js
 // Convert and output here
 sex
 ```
@@ -491,8 +499,19 @@ sex
 
 **Goal**: Make a `for` loop that considers each item in the `sex` list. Log "Person is male" ***if*** the person is `"m"`, "Person is female" ***if*** the person is `"f"`, "Person is intersex" ***if*** the person is `"i"`, and "Person's sex is not known" ***if*** `"unknown"`.
 
-```javascript
+```js
 // Your code here
+for (let i = 0; i < sex.length; i++) {
+  if (sex[i] === "m") {
+    console.log("Person is male");
+  } else if (sex[i] === "f") {
+    console.log("Person is female");
+  } else if (sex[i] === "i") {
+    console.log("Person is intersex");
+  } else if (sex[i] === "unknown") {
+    console.log("Person's sex is not known");
+  }
+}
 ```
 
 Make sure to check if the items are logged correctly.
@@ -503,16 +522,20 @@ Make sure to check if the items are logged correctly.
 
 Since this is your first big use of `.map()`, I'll give you the skeleton of the expression:
 
-```javascript
+```js
 // Skeleton of .map()
-let sexFullTerm = sex.map(
-  (sexItem) => {
-    // Enter your code in here,
-    // which will include conditional statements.
-    // Also, be sure to use `return` statements
-    // where appropriate!
+let sexFullTerm = sex.map((sexItem) => {
+  if (sexItem === "f") {
+    return "female";
+  } else if (sexItem === "m") {
+    return "male";
+  } else if (sexItem === "i") {
+    return "intersex";
+  } else {
+    return "unknown"; // for "unknown" or any other unexpected value
   }
-)
+});
+console.log(sexFullTerm)
 ```
 
 ## Submission
