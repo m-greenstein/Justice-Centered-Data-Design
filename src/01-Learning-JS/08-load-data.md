@@ -220,7 +220,15 @@ Goal: Demonstrate your understanding of the CSV file format by creating a mini C
 
 Use the empty codeblock below.
 
-```
+```csv
+band,album,song
+
+My Chemical Romance,The Black Parade,Welcome to the Black Parade
+Fall Out Boy,From Under the Cork Tree,Sugar We're Goin Down,
+Paramore,Riot!,Misery Business
+Taking Back Sunday,Louder Now,What's It Feel Like to Be a Ghost?
+Pierce the Veil,Collide with the Sky,King for a Day
+
 ```
 
 ### E2. Load a CSV file
@@ -234,12 +242,17 @@ In this case, load the following CSV file: `nc_absentee_mail_2024.csv`.
 2. In the second codeblock, use `console.log()` to log the following properties to the console: `.name` and `.size`.
 3. Still in the second codeblock, add a second `console.log()` and log the first object in the Array to the console.
 
-```javascript
+```js
 // Your FileAttachment() code goes here
+const ncAbsenteeMail2024 = FileAttachment("nc_absentee_mail_2024.csv");
 ```
 
-```javascript
+```js
 // Your other code with your variable goes here
+console.log(ncAbsenteeMail2024.name, ncAbsenteeMail2024.size);
+
+const absenteeData = await ncAbsenteeMail2024.csv();
+console.log(absenteeData[0]);
 ```
 
 Make sure that you verify the logs are there!
