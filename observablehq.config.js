@@ -65,7 +65,7 @@ export default {
         },
         {
           name: "1.7. Dates & Time - My Copy",
-          path: "/01-Learning-JS/07-dates--teachers_copy"
+          path: "/01-Learning-JS/07-dates"
         },
         {
           name: "1.8. Data Formats & Loading",
