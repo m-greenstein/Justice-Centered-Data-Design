@@ -373,10 +373,12 @@ Here are some tips to consider as you complete this exercise.
 <!-- E1 -->
 ```js
 // Convert and code here
+const parseDate = d3.utcParse("%m/%d/%Y");
+
 const ballotsWithDateObjs = nc2024SampleVoters.map(voter => {
   return {
-    ...voter, // keep all existing properties
-    // ballot_req_dt_obj: new Date(voter.ballot_req_dt) // add new Date object
+    ...voter, 
+    ballot_req_dt_obj: parseDate(voter.ballot_req_dt) // ← add Date object
   };
 });
 ```
@@ -391,11 +393,18 @@ ballotsWithDateObjs
 **Goal**: Use `.map()` to loop through the updated array of objects, `ballotsWithDateObjs`, and create a new array of objects called `updatedBallots`. In the new `updatedBallots`, use `d3.utcFormat()` to assign a converted and formatted version of `ballot_req_dt_obj` with the following date ***format***: Wed., January 27, 1981.
 
 <!-- E2 -->
-```javascript
+```js
 // Convert and code here
+const formatDate = d3.utcFormat("%a., %B %d, %Y");
+const updatedBallots = ballotsWithDateObjs.map(voter => {
+  return {
+    ...voter,
+    ballot_req_dt_formatted: formatDate(voter.ballot_req_dt_obj) // new formatted date string
+  };
+});
 ```
 
-```javascript
+```js
 // Convert and output updatedBallots here
 updatedBallots
 ```
