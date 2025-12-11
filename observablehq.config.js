@@ -128,29 +128,12 @@ export default {
         },
       ]
     },
-
-    //3. Textual Analysis
-          path: "/02-Why-Stats/04-freq-dist-plot--teachers_copy"
-        },
-        {
-          name: "2.5 Central Tendency",
-          path: "/02-Why-Stats/05-central-tend"
-        },
-        {
-          name: "2.6 Variability",
-          path: "/02-Why-Stats/06-dispersion"
-        },
-      ]
-    },
     // 3. Textual Analysis
     {
       name: "3. Textual Analysis",
       open: false,
       pages: [
         {
-          name: "Weighting Words with TF-IDF",
-          path: "/03-Textual-Analysis/01-weighting-words"
-        }
           name: "3.1 Weighting Words with TF-IDF",
           path: "/03-Textual-Analysis/01-weighting-words"
         },
