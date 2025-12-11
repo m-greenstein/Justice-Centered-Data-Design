@@ -44,26 +44,26 @@ With these goals for the texts in mind, please respond to the questions herein a
 **Question**: Use the space below to define the provided key terms.
 
 - According to the SFSJ authors, what are the main difference between **data** and **information**?:
-- **Variable**:
-- **Constant**:
-- **Conceptualization**:
-- **Operationalization**:
-- **Nominal level of data**:
-- **Ordinal level of data**:
-- **Interval level of data**:
-- **Ratio level of data**:
+- **Variable**: a characteristic that can take on different values across people or cases
+- **Constant**: a characteristic that is the same for all the people or objects in a particular study
+- **Conceptualization**: the process of choosing and clearly defining the variables in a study
+- **Operationalization**: how to actually measure the defined concept
+- **Nominal level of data**: orderless categories
+- **Ordinal level of data**: ordered data
+- **Interval level of data**: categories where the intervals between values are equal with no true zero point
+- **Ratio level of data**: all the properties of interval data and a meaningful zero point
 
 ### 1.2. On positivism
 
 **Question**: Describe how the S4SJ authors define and use the term **positivism**. How do they suggest it is different from **post-positivism**? According to the authors, why are both paradigms important to social workers? Now, how do you imagine it is important for TPC professionals?
 
-Your_response_here
+Positivism assumes social phenomena can be studied objectively with measurable variables and scientific methods. Post-positivism/interpretivism critiques that, emphasizing subjectivity, lived experience, and client/participant voices. Social workers need both: strong quantitative evidence and rich qualitative insight. TPC professionals do too: statistics for usability/effects and interpretive methods for context, power, and user experience.
 
 ### 1.3. On the "*structural perspective*"
 
 **Question**: Name and define the different parts of the ***structural perspective***. Be sure to cover the parts related practice and research.
 
-Your_response_here
+The structural perspective sees problems as rooted in social, political, and economic structures—not individual failure. Mullaly contrasts order (society basically fine, individuals to blame) vs conflict (society structured by unequal power). Moreau’s five methods translate this into practice: defending clients, collectivizing experiences, materializing structural causes (like poverty), sharing power with clients, and supporting personal change within a structural analysis; research follows the same logic by documenting patterns and involving clients as co-researchers.
 
 ## 2. Questions about "The history of empiricism"
 
@@ -71,7 +71,7 @@ Your_response_here
 
 **Question**: According to the SFSJ authors, what is ***feminist empiricism***? And, what issues does it recognize as important to recognize and remedy? Be sure to discuss why it emphasizes the importance of critically reflecting on aspects of the ***context*** of empirical work.
 
-Your_response_here
+Feminist empiricism keeps empirical methods but critiques how traditional empiricism erased or distorted marginalized experiences. It highlights who frames questions, who gets studied, and how categories encode power. It stresses reflecting on the social context of data collection and use so empirical work supports anti-oppressive, structural goals instead of reinforcing bias.
 
 ## 3. Questions About "The future of ethics and social justice" in TPC
 
@@ -79,33 +79,33 @@ Your_response_here
 
 **Question**: Name and define some of what you deem as the main different parts of the ***socially just ethic***. Be sure to discuss how it is different from other ethical approaches.
 
-Your_response_here
+An SJ ethic centers power, oppression, and collective action, not just individual moral choice. Key parts: critical consciousness (knowing who is harmed and how), coalition-building, praxis (reflection + action), reflexivity about constraints, and centering marginalized knowledge. It differs from more “neutral” ethics by explicitly aiming to reorganize power and address structural injustice.
 
 ### 3.2. Defining critical issues
 
 **Question**: Briefly define each of the critical issues discussed: Cultural Imperialism, Marginalization, and Intersectional Oppression.
 
-**Cultural Imperialism**: Your_response_here
+**Cultural Imperialism**: Dominant (often white, colonial) cultures imposing language, norms, and values—erasing or subordinating other cultures and presenting dominance as “natural.”
 
-**Marginalization**: Your_response_here
+**Marginalization**: Pushing groups to the social/economic/political margins so they have less access, voice, and visibility.
 
-**Intersectional Oppression**: Your_response_here
+**Intersectional Oppression**: Overlapping systems (e.g., racism, sexism, ableism, classism) that shape how people experience harm and privilege simultaneously.
 
 ### 3.3. Defining the 3Ps to help us recognize oppression
 
 **Question**: Define each of the 3Ps below. Explain how each helps us recognize oppression.
 
-**Power**: Your_response_here
+**Power**: How control and decision-making are organized across institutions, rules, everyday interactions, and dominant ideas; helps us see where oppression is produced.
 
-**Privilege**: Your_response_here
+**Privilege**: Unearned advantages some groups get from these power structures; reveals whose comfort, safety, and preferences are centered.
 
-**Positionality**: Your_response_here
+**Positionality**: Your location within power/privilege structures; helps you notice how your standpoint shapes what you see, assume, and design.
 
 ### 3.4. Why an SJ ethic?
 
 **Question**: Why do Lindgren, Gerdes, and Lawrence position a "SJ ethic" as essential to the future of TPC? What types of problems does it help TPC tackle?
 
-Your_response_here
+They argue SJ ethics are essential because TPC shapes how institutions communicate, regulate, surveil, and grant or deny access. An SJ ethic helps TPC tackle problems like biased technologies, exclusionary genres, and harmful regulatory or health communication by asking who benefits, who is harmed, and how to redesign toward justice.
 
 ## 4. Questions About "Statistical Genre Analysis" (SGA)
 
@@ -113,7 +113,7 @@ Your_response_here
 
 **Question**: How do Graham et al define and discuss what constitutes "big" data? How does their definition differ from what you have heard before you read this article?
 
-Your_response_here
+Graham et al. treat data as “big” not just by file size but when its volume and complexity exceed what traditional qualitative/close-reading methods can handle. Their definition is discipline-specific: data are “big” when you need new analytical tools to manage and interpret them, even if they’re small compared to other fields’ terabytes.
 
 ### 4.2. On SGA
 
@@ -124,19 +124,33 @@ Your_response_here
 3. What questions SGA data and methods enable TPC to ask, and
 4. What methods it uses to do so.
 
-Your_response_here
+- Genre studies based on a few “exemplars” that overgeneralize and can’t show patterns or outcomes across many texts.
+- Dozens of FDA ODAC meeting transcripts with thousands of coded paragraphs and metadata points.
+- What a “typical” genre response looks like statistically, how features vary with context/demographics, and which patterns correlate with outcomes like drug approval.
+- Systematic coding, descriptive statistics/visualizations, and multivariate models (e.g., regression) to link genre features to outcomes.
 
 ## 5. "Science is a social endeavor."
 
 **Question**: Discuss what this statement means to you. Then, discuss any connections, confusion, and/or questions that you recognize with a SJ ethic and structural perspective?
 
-Your_response_here
+To me, this means science is produced through institutions, funding, norms, and histories of power, not by isolated geniuses. That connects to the structural perspective (knowledge tied to social structures) and SJ ethics (ethics must confront oppression and power). It raises questions about how to use “objective” methods while centering marginalized standpoints and resisting harmful institutional pressures.
 
 ## 6. Translating the structural approach into TPC / Other Humanities Fields
 
 **Question**: After considering all of these texts -- their exigencies, propositions, and methods -- translate Mullaly's broader definition of the *structural approach* and Moreau's *practice methods* in social work into the domain of TPC or humanist domain of work by putting them into conversation with Lindgren, Gerdes, and Lawrence's SJ ethic and Graham et al's statistical genre analysis. In other words, begin to develop your own structural perspective and set of practices that translates Moreau's 5 practices. Finally, add one new practice approach specific to TPC/your domain.
 
-Your_response_here
+A structural TPC perspective treats genres, documents, and technologies as infrastructures that distribute power, risk, and resources.
+
+Moreau’s five practices to TPC:
+1. Defense of the user – use documents, data, and critiques to advocate for harmed users.
+2. Collectivization – design spaces and reports that show users they share structural problems.
+3. Materialization – highlight how material conditions (costs, access, labor) shape “usability.”
+4. Increasing user power – participatory design, plain language, and transparent decisions.
+5. Enhancing user power – build users’ critical literacies about forms, policies, and platforms.
+
+New TPC-specific practice:
+
+6. Data-informed genre re-engineering – use methods like SGA plus participatory design to identify harmful genre patterns and redesign them with affected communities, then re-evaluate to see if power actually shifts.
 
 ## Submission
 
