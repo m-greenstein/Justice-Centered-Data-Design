@@ -381,7 +381,7 @@ const ballotsWithDateObjs = nc2024SampleVoters.map(voter => {
 });
 ```
 
-```javascript
+```js
 // Convert and output
 ballotsWithDateObjs
 ```
